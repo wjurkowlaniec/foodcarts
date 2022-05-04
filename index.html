@@ -4,27 +4,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>VirtuDeck</title>
+  <title>Co dzisiaj jemy..</title>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
     integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+  <script src="papaparse.min.js"></script>
 </head>
 
 <body>
   <div class="container">
     <div class="text-center">
-      <div class="display-4 page-title">VirtuDeck</div>
-      <p class="lead">Your custom deck of cards, shuffled and ready!</p>
+      <div class="display-4 page-title">Dzisiaj jemy..</div>
+      <!-- <p class="lead">Your custom deck of cards, shuffled and ready!</p> -->
     </div>
-    <h2>Setup
+    <!-- <h2>Setup
       <span class="float-right">
-        <i id="setup-show" onclick="setupToggleHide();" class="fas fa-chevron-down"></i>
-      </span>
-    </h2>
-    <div class="game-setup">
+        <!-- <i id="setup-show" onclick="setupToggleHide();" class="fas fa-chevron-down"></i> -->
+    <!-- </span> -->
+    <!-- </h2> -->
+    <!-- <div class="game-setup">
       <form id="setup" onsubmit="setupComplete();">
         <div class="form-group">
           <label for="setup-card-content">Card content</label>
@@ -36,7 +37,7 @@
         </div>
       </form>
       <hr />
-    </div>
+    </div> -->
     <div id="deck" class="deck d-none">
       <h2>Draw a card</h2>
       <div class="active-card">
@@ -53,38 +54,7 @@
     // SETUP
     let Deck;
     let CardList = [
-      "This is a default card.",
-      "This is another default card.",
     ];
-
-    function setupToggleHide() {
-      let form = document.getElementById('setup');
-      form.classList.toggle('d-none');
-    }
-
-    function setupComplete() {
-      let setupCardContent = document.getElementById('setup-card-content').value;
-      let setupCards = setupCardContent.split('\n');
-
-      for (let i = 0; i < setupCards.length; i++) {
-        if (setupCards[i] == "") {
-          setupCards.splice(i, 1);
-          i--;
-        }
-      }
-
-      if (setupCards.length > 0) {
-        CardList = [];
-        CardList = setupCards.slice();
-
-        console.log("INFO: The following cards were parsed.");
-        console.log(CardList);
-
-        refillCards();
-        document.getElementById('setup').classList.add('d-none');
-        document.getElementById('deck').classList.remove('d-none');
-      }
-    }
 
     function shuffle(a) {
       for (let i = a.length - 1; i > 0; i--) {
@@ -98,7 +68,6 @@
       Deck = [];
       Deck = CardList.slice();
       Deck = shuffle(Deck);
-      console.log('INFO: Deck was refilled and shuffled.');
     }
 
     // GAME
@@ -109,10 +78,50 @@
 
       let card = Deck.pop();
       document.getElementById('card-text').innerHTML = card;
-      console.log(card);
     }
 
     refillCards();
+  </script>
+
+
+  <script>
+
+    var przepisy = []
+
+    function prepareCards() {
+      for (let i = 1; i < przepisy.length; i++) {
+        if (przepisy[i][5] !== undefined)
+          przepisy[i][5] = przepisy[i][5].replace(/(?:\r\n|\r|\n)/g, '<br>');
+        if (przepisy[i][7] !== ""){
+          przepisy[i][7] = przepisy[i][7] + " -"
+        }
+        console.log(przepisy[i][4]);
+        html = `
+        <b>${przepisy[i][3]} - ${przepisy[i][4]}</b></br><br/>
+        ${przepisy[i][5]}<br/><br/>
+        <b>${przepisy[i][7]} ${przepisy[i][6]} - ${przepisy[i][8]}kcal</b>
+
+        `;
+        CardList.push(html);
+      }
+      // debugger
+    }
+
+
+    Papa.parse("przepisy2.csv", {
+      download: true,
+      complete: function (results) {
+        console.log("Finished:", results.data);
+
+        przepisy = results.data;
+        prepareCards();
+        refillCards();
+        // document.getElementById('setup').classList.add('d-none');
+        document.getElementById('deck').classList.remove('d-none');
+        drawCard()
+      }
+    });
+
   </script>
 </body>
 
