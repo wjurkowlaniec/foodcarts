@@ -1,209 +1,215 @@
-Card Number,Symbol Karty,Poziom Karty,Ingredients no,Card Title,Card Body,Czas przygotowania,Wege,Kcal,Zaznacz,wojtas ,Komentarz,Komentarz wykonanie,Card Back
-1,,,3,Ziemniaki z fasolą w pomidorach,"3-4 gotowe ziemniaki, biedronka (250g, 200kcal)
+Card Number;Symbol Karty;Poziom Karty;Ingredients no;Card Title;Card Body;Czas przygotowania;Wege;Kcal;Zaznacz;wojtas ;Komentarz;Komentarz wykonanie;Card Back
+1;;;3;Ziemniaki z fasolą w pomidorach;"3-4 gotowe ziemniaki, biedronka (250g, 200kcal)
 0,5 puszki pomidory krojone (200g, 50kcal)
-0,5 puszki fasola czerwona (200g, 150kcal",5-30m,Wege,400,TRUE,FALSE,mostlyspeedfood,,
-2,,,3,Jajecznica na bekonie ze szpinakiem,"3x jajko
+0,5 puszki fasola czerwona (200g, 150kcal";5-30m;Wege;400;TRUE;FALSE;mostlyspeedfood;;
+2;;;3;Jajecznica na bekonie ze szpinakiem;"3x jajko
 4x plaster boczek parzony (40g)
-1x garść+ szpinak baby",5m,,400,FALSE,FALSE,mostlyspeedfood,,
-3,,,3,Jajecznica z fetą i szpinakiem,"3x jajko
+1x garść+ szpinak baby";10m;;400;FALSE;FALSE;mostlyspeedfood;;
+3;;;3;Jajecznica z fetą i szpinakiem;"3x jajko
 2x plaster ser feta (40g)
-1x garść+ szpinak baby",5m,"Wege, laktoza",400,TRUE,FALSE,mostlyspeedfood,laktoza,Basia
-4,,,4,Chili sin carne minimal,"1x papryka czerwona
+1x garść+ szpinak baby";10m;Wege, laktoza;400;TRUE;FALSE;mostlyspeedfood;laktoza;Basia
+4;;;4;Chili sin carne minimal;"1x papryka czerwona
 0,5 puszki krojone pomidory (200g, 50kcal)
 0,5 puszki fasola czerwona (200g)
-100g ryż",25m,Wege,600,FALSE,FALSE,mostlyspeedfood,,Asia L
-5,,,5,Chili con carne minimal,"0,5 papryka czerwona
+100g ryż";25m;Wege;600;FALSE;FALSE;mostlyspeedfood;;Asia L
+5;;;5;Chili con carne minimal;"0,5 papryka czerwona
 0,5 puszki fasola czerwona (200g)
 0,5 puszki pomidory krojone
 100g wołowe mielone
-50g ryż",30m,,650,FALSE,FALSE,mostlyspeedfood,,Angol
-6,"trefl, żołądź, koniczyna",,2,Daktyle z orzechami,"50g daktyle
-25g orzechy",0m,Wege,300,TRUE,FALSE,mostlyspeedfood,,Kazik
-7,"trefl, żołądź, koniczyna",,2,Jabłko z masłem orzechowym,"1x jabłko
-1x łyżka masło orzechowe (20g)",2m,Wege,200,TRUE,FALSE,mostlyspeedfood,,Tomasz dieta refluks
-8,"Pik, grot",,5,Sałatka kurczak z fetą i oliwkami,"100g pomidor koktajlowy
+50g ryż";30m;;650;FALSE;FALSE;mostlyspeedfood;;Angol
+6;trefl, żołądź, koniczyna;;2;Daktyle z orzechami;"50g daktyle
+25g orzechy";0m;Wege;300;TRUE;FALSE;mostlyspeedfood;;Kazik
+7;trefl, żołądź, koniczyna;;2;Jabłko z masłem orzechowym;"1x jabłko
+1x łyżka masło orzechowe (20g)";2m;Wege;200;TRUE;FALSE;mostlyspeedfood;;Tomasz dieta refluks
+8;Pik, grot;;5;Sałatka kurczak z fetą i oliwkami;"100g pomidor koktajlowy
 100g pierś kurczaka
 dowolnie mix sałat z sałatą lodową
 3x łyżka oliwki zielone (60g)
-2x plaster ser typu feta (40g)",15m,Laktoza,300,FALSE,FALSE,mostlyspeedfood,laktoza,Alien dieta bez laktozy
-9,"trefl, żołądź, koniczyna",,5,Mocno orzechowe curry,"(2 porcje)
+2x plaster ser typu feta (40g)";15m;Laktoza;300;FALSE;FALSE;mostlyspeedfood;laktoza;Alien dieta bez laktozy
+9;trefl, żołądź, koniczyna;;5;Mocno orzechowe curry;"(2 porcje)
 500g gotowane ziemniaki
 200g ciecierzyca konserwowa
 1x mały jogurt naturalny (180g)
 2x łyżka masło orzechowe (40g)
-1x łyżka olej (10g)",30-45m,"Wege, laktoza",500,TRUE,FALSE,mostlyspeedfood,laktoza,
-10,"Kier, serce",,3,Makaron ze szpinakiem i fetą,"1/2 opak. szpinak mrożony (225g)
+1x łyżka olej (10g)";30-45m;Wege, laktoza;500;TRUE;FALSE;mostlyspeedfood;laktoza;
+10;Kier, serce;;3;Makaron ze szpinakiem i fetą;"1/2 opak. szpinak mrożony (225g)
 1/2 ser feta (75g)
-100g makaron razowy",15m,"Wege, laktoza",600,TRUE,FALSE,mostlyspeedfood,laktoza,
-11,"Pik, grot",,5,Tortilla z tuńczykiem,"1x tortilla
+100g makaron razowy";15m;Wege, laktoza;600;TRUE;FALSE;mostlyspeedfood;laktoza;
+11;Pik, grot;;5;Tortilla z tuńczykiem;"1x tortilla
 0,5 puszki tuńczyka 
 1 łyżka majonez
 2 łyżki kukurydza
-2x plaster cebula",10m,,500,TRUE,FALSE,mostlyspeedfood,,
-12,"Kier, serce",,3,Przekąska on the go,"0,5 paczki Wege kabanosy (45g)
+2x plaster cebula";10m;;500;TRUE;FALSE;mostlyspeedfood;;
+12;Kier, serce;;3;Przekąska on the go;"0,5 paczki Wege kabanosy (45g)
 1x bułka grahamka (80g)
-0,5x kefir (250g)",0m,Wege,500,TRUE,FALSE,mostlyspeedfood,,
-13,"Kier, serce",,6,Tortilla proteinowa,"1x tortilla
+0,5x kefir (250g)";0m;Wege;500;TRUE;FALSE;mostlyspeedfood;;
+13;Kier, serce;;6;Tortilla proteinowa;"1x tortilla
 60g twaróg chudy
 1x łyżka masło orzechowe (20g)
 3x suszony daktyl
 wiórki kokosowe
-orzechy",10m,Wege,500,TRUE,FALSE,mostlyspeedfood,,
-14,"Pik, grot",,3,Ziemniaki z kiełbasą,"250g Ziemniaki gotowane (1/2 opakowania z biedronki)
+orzechy";10m;Wege;500;TRUE;FALSE;mostlyspeedfood;;
+14;Pik, grot;;3;Ziemniaki z kiełbasą;"250g Ziemniaki gotowane (1/2 opakowania z biedronki)
 1x kiełbasa śląska
-3x garść+ szpinak baby",5-25m,,350,TRUE,FALSE,mostlyspeedfood,,
-15,"Kier, serce",,3,Jajecznica z fetą i pomidor,"3x jajko
+3x garść+ szpinak baby";5-25m;;350;TRUE;FALSE;mostlyspeedfood;;
+15;Kier, serce;;3;Jajecznica z fetą i pomidor;"3x jajko
 1x plaster sera feta (20g)
-1x pomidor",5m,"Wege, laktoza",350,FALSE,FALSE,mostlyspeedfood,laktoza,
-16,,,1,Daktyle suszone,20x daktyli suszonych (100g),0m,Wege,300,FALSE,FALSE,mostlyspeedfood,,
-17,"trefl, żołądź, koniczyna",,3,Słodka przekąska,"daktyle suszone
+1x pomidor";5m;Wege, laktoza;350;FALSE;FALSE;mostlyspeedfood;laktoza;
+16;;;1;Daktyle suszone;20x daktyli suszonych (100g);0m;Wege;300;FALSE;FALSE;mostlyspeedfood;;
+17;trefl, żołądź, koniczyna;;3;Słodka przekąska;"daktyle suszone
 chipsy kokosowe
-orzechy",0m,,,TRUE,FALSE,,,
-18,,,2,Daktyle z masłem orzechowym,"10x daktyle suszone (50g)
-1x łyżka masło orzechowe (20g)",0m,Wege,200,FALSE,FALSE,mostlyspeedfood,,
-19,,,3,Ziemniaki z fetą,"250g ziemniaki gotowane (1/2 opakowania z biedronki)
+orzechy";0m;;;TRUE;FALSE;;;
+18;;;2;Daktyle z masłem orzechowym;"10x daktyle suszone (50g)
+1x łyżka masło orzechowe (20g)";0m;Wege;200;FALSE;FALSE;mostlyspeedfood;;
+19;;;3;Ziemniaki z fetą;"250g ziemniaki gotowane (1/2 opakowania z biedronki)
 3x garść+ szpinak baby
-2x plaster sera feta (40g)",5-25m,"Wege, laktoza",300,FALSE,FALSE,mostlyspeedfood,laktoza,
-20,"Pik, grot",Dama,6,Tortilla z tiktoka,"1x tortilla
+2x plaster sera feta (40g)";5-25m;Wege, laktoza;300;FALSE;FALSE;mostlyspeedfood;laktoza;
+20;Pik, grot;Dama;6;Tortilla z tiktoka;"1x tortilla
 1x plaster sera (20g)
 1x garść szpinak lub ogórek plastry
 2x plaster boczek parzony (20g, 50 kcal)
 2x plaster szynka
-1 łyżka almette (20g)",30m,Laktoza,400,TRUE,FALSE,mostlyspeedfood,laktoza,
-21,"trefl, żołądź, koniczyna",Walet,4,Owsianka malinowa,"5x łyżek płatków owsianych (50g)
+1 łyżka almette (20g)";30m;Laktoza;400;TRUE;FALSE;mostlyspeedfood;laktoza;
+21;trefl, żołądź, koniczyna;Walet;4;Owsianka malinowa;"5x łyżek płatków owsianych (50g)
 1 szklanka mleko owsiane lub inne (200g)
 100g maliny mrożone lub inne owoce
-1 łyżka masło orzechowe (20g)",10m,Wege,420,TRUE,FALSE,mostlyspeedfood,,
-22,"Pik, grot",Król,5,Makaron z tuńczykiem i mozzarellą,"50g makaron razowy
+1 łyżka masło orzechowe (20g)";10m;Wege;420;TRUE;FALSE;mostlyspeedfood;;
+22;Pik, grot;Król;5;Makaron z tuńczykiem i mozzarellą;"50g makaron razowy
 1/2 puszki pomidorów krojonych
 1/2 mozzarella light
 1/2 puszki tuńczyk
-1/2 ciecierzyca konserwowa (200g)",25m,Laktoza,600,TRUE,FALSE,mostlyspeedfood,laktoza,
-23,,,1,Banany,2x banan (240g),0m,Wege,200,FALSE,FALSE,mostlyspeedfood,,
-24,,,2,Placki ziemniaczane z jogurtem,"1/2 opakowania gotowe placki ziemniaczane (200g)
-1x mały jogurt skyr (150g)",5m,,550,FALSE,FALSE,mostlyspeedfood,,
-25,,,1,Huel,2x miarka (80g),2m,Wege,400,FALSE,FALSE,mostlyspeedfood,,
-26,,,2,Ziemniaki z boczkiem,"3-4x ziemniaki gotowane (250g, 200 kcal)
+1/2 ciecierzyca konserwowa (200g)";25m;Laktoza;600;TRUE;FALSE;mostlyspeedfood;laktoza;
+23;;;1;Banany;2x banan (240g);0m;Wege;200;FALSE;FALSE;mostlyspeedfood;;
+24;;;2;Placki ziemniaczane z jogurtem;"1/2 opakowania gotowe placki ziemniaczane (200g)
+1x mały jogurt skyr (150g)";5m;;550;FALSE;FALSE;mostlyspeedfood;;
+25;;;1;Huel;2x miarka (80g);2m;Wege;400;FALSE;FALSE;mostlyspeedfood;;
+26;;;2;Ziemniaki z boczkiem;"3-4x ziemniaki gotowane (250g, 200 kcal)
 4x plaster boczku (40g, 100 kcal)
-1 garść+ szpinak baby",5-25m,,300,FALSE,FALSE,mostlyspeedfood,,
-27,,,4,Ziemniaki z fetą i fasolą w pomidorach,"3-4x ziemniaki gotowane (250g, 200 kcal)
+1 garść+ szpinak baby";5-25m;;300;FALSE;FALSE;mostlyspeedfood;;
+27;;;4;Ziemniaki z fetą i fasolą w pomidorach;"3-4x ziemniaki gotowane (250g, 200 kcal)
 0,5 puszki fasola (200g)
 0,5 puszki pomidory krojone (200g)
-2x plaster ser feta (40g)",5-25m,Laktoza,500,FALSE,FALSE,mostlyspeedfood,laktoza,
-28,,,1,Jabłko,1x jabłko,0m,Wege,100,FALSE,FALSE,mostlyspeedfood,,
-29,,,1,Winogrona,250g winogron,0m,Wege,200,FALSE,FALSE,mostlyspeedfood,,
-30,"Kier, serce",,4,Owsianka z bananem,"5x łyżka płatki owsiane (50g)
+2x plaster ser feta (40g)";5-25m;Laktoza;500;FALSE;FALSE;mostlyspeedfood;laktoza;
+28;;;1;Jabłko;1x jabłko;0m;Wege;100;FALSE;FALSE;mostlyspeedfood;;
+29;;;1;Winogrona;250g winogron;0m;Wege;200;FALSE;FALSE;mostlyspeedfood;;
+30;Kier, serce;;4;Owsianka z bananem;"5x łyżka płatki owsiane (50g)
 1 szklanka mleka krowiego (200g)
 1x banan
-1x łyżka masło orzechowe (20g)",10m,Wege,500,TRUE,FALSE,mostlyspeedfood,,
-31,,,5,Owsianka jabłkowa,"0,5 jabłko (50 kcal)
+1x łyżka masło orzechowe (20g)";10m;Wege;500;TRUE;FALSE;mostlyspeedfood;;
+31;;;5;Owsianka jabłkowa;"0,5 jabłko (50 kcal)
 150g mleko owsiane (50 kcal)
 1 łyżka masło orzechowe (20g, 120 kcal)
 2x łyżka żurawina suszona (24g, 75 kcal)
-5x łyżka płatki górskie (50g, 200 kcal)",10m,Wege,500,FALSE,FALSE,mostlyspeedfood,,
-32,,,7,Jajecznica na bekonie z kanapkami,"3x jajko
+5x łyżka płatki górskie (50g, 200 kcal)";10m;Wege;500;FALSE;FALSE;mostlyspeedfood;;
+32;;;7;Jajecznica na bekonie z kanapkami;"3x jajko
 4x plaster szynki
 2x łyżka almette (25g)
 2x cieńkie kromki chleb bez drożdzy (50g)
 1x pomidor
-2x garść szpinak baby (do jajecznicy i na kanapki)",15m,,650,FALSE,FALSE,mostlyspeedfood,,
-33,,,5,Owsianka z bananem i borówkami,"5x łyżka płatki owsiane (50g)
+2x garść szpinak baby (do jajecznicy i na kanapki)";15m;;650;FALSE;FALSE;mostlyspeedfood;;
+33;;;5;Owsianka z bananem i borówkami;"5x łyżka płatki owsiane (50g)
 1 szklanka mleko owsiane
 1x czubata łyżka masło orzechowe (25g, 150kcal)
 1x banan
-80g mrożone borówki (dodać pod koniec)",10m,Wege,600,FALSE,FALSE,mostlyspeedfood,,
-34,"Pik, grot",,5,Tortilla z kiełbasą,"1x tortilla
+80g mrożone borówki (dodać pod koniec)";10m;Wege;600;FALSE;FALSE;mostlyspeedfood;;
+34;Pik, grot;;5;Tortilla z kiełbasą;"1x tortilla
 1x kiełbasa ""szlachetna"" z biedronki (70g)
 25g ser wiórki
 1x garść+ szpinak baby
-100g pomidory koktajlowe",15m,Laktoza,550,TRUE,FALSE,mostlyspeedfood,laktoza,
-35,"trefl, żołądź, koniczyna",10,3,Kanapki z bananem i masłem orzechowym,"1x banan
+100g pomidory koktajlowe";15m;Laktoza;550;TRUE;FALSE;mostlyspeedfood;laktoza;
+35;trefl, żołądź, koniczyna;10;3;Kanapki z bananem i masłem orzechowym;"1x banan
 2x płaska łyżka masło orzechowe (30g)
-2x kromka chleba razowy z maślanką (70g)",5m,Wege,450,TRUE,FALSE,mostlyspeedfood,,
-36,"Kier, serce",,3,Twaróg z rzodkiewką,"5x rzodkiewka (75g, 15kcal)
+2x kromka chleba razowy z maślanką (70g)";5m;Wege;450;TRUE;FALSE;mostlyspeedfood;;
+36;Kier, serce;;3;Twaróg z rzodkiewką;"5x rzodkiewka (75g, 15kcal)
 60g twaróg półtłusty (75kcal)
-0,5 mały skyr naturalny (75g, 50kcal) // tu wole jogurt nat",5m,"Wege, laktoza",150,TRUE,FALSE,mostlyspeedfood,laktoza,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-,,,,,,,,,,,,,
-40,"Kier, serce",,3,Deser bananowy z dżemem i orzechami,"2x banan
+0,5 mały skyr naturalny (75g, 50kcal) // tu wole jogurt nat";5m;Wege, laktoza;150;TRUE;FALSE;mostlyspeedfood;laktoza;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+;;;;;;;;;;;;;
+40;Kier, serce;;3;Deser bananowy z dżemem i orzechami;"2x banan
 1x jogurt skyr 150g
-3x łyżeczka dżem truskawkowy niskosłodzony (45g, 70kcal)",5m,"Wege, laktoza",400,FALSE,FALSE,mostlyspeedfood,,
-41,"Kier, serce",,4,Serek wiejski z warzywami,"1x serek wiejski 200g
+3x łyżeczka dżem truskawkowy niskosłodzony (45g, 70kcal)";5m;Wege, laktoza;400;FALSE;FALSE;mostlyspeedfood;;
+41;Kier, serce;;4;Serek wiejski z warzywami;"1x serek wiejski 200g
 4x pomidor koktajlowy (80g)
 1 łyżeczka nasiona słonecznika/dyni
-2x kromka chleb bez drożdzy (biedronka)",5m,"Wege, Bez laktozy",400,TRUE,FALSE,Asia L vogt,,
-42,"trefl, żołądź, koniczyna",,6,Spaghetti z tofu (2 porcje),"1x tofu wędzone (180g)
+2x kromka chleb bez drożdzy (biedronka)";5m;Wege, Bez laktozy;400;TRUE;FALSE;Asia L vogt;;
+42;trefl, żołądź, koniczyna;;6;Spaghetti z tofu (2 porcje);"1x tofu wędzone (180g)
 2 łyżka olej rzepakowy (25g)
 1x cebula
 2x ząbek czosnku
 0,5 puszki pomidory krojone (200g)
-130g makaron pełnoziarnisty",25m,Wege,500,TRUE,FALSE,Asia L vogt,Sama bazylia z przypraw,
-43,—,,4,Owsianka z malinami na słodko,"4x łyżka płatki owsiane (40g)
+130g makaron pełnoziarnisty";25m;Wege;500;TRUE;FALSE;Asia L vogt;Sama bazylia z przypraw;
+43;—;;4;Owsianka z malinami na słodko;"4x łyżka płatki owsiane (40g)
 1x szklanka mleko owsiane (240g)
 1 łyżka orzechy ziemne (15g)
 80g maliny mrożone
-1 łyżeczka miód (12g)",10m,Wege,400,FALSE,FALSE,Asia L vogt,,
-44,"Kier, serce",,3,Deser jabłkowy,"1x jogurt naturalny (180g lub 225g)
+1 łyżeczka miód (12g)";10m;Wege;400;FALSE;FALSE;Asia L vogt;;
+44;Kier, serce;;3;Deser jabłkowy;"1x jogurt naturalny (180g lub 225g)
 1x jabłko
-1 łyżka rodzynki (15g)",5m,,,FALSE,FALSE,Asia L vogt,,
-45,,,6,Pizza wege z wrapa,"1x tortilla pełnoziarnista
+1 łyżka rodzynki (15g)";5m;;;FALSE;FALSE;Asia L vogt;;
+45;;;6;Pizza wege z wrapa;"1x tortilla pełnoziarnista
 2 łyżeczki - koncentrat pomidorowy 30% (40g)
 80g pieczarki
 1x pomidor czerwony
 4 plastry mozzarella light (60g)
-kukurydza",15m,,,TRUE,FALSE,Asia L vogt,"pieprz, bazylia, oregano, czosnek granulowany
-do koncentratu nieco wody i zioła",
-46,,,5,Pizza caprichiosa z wrapa,"1x tortilla pełnoziarnista
+kukurydza";15m;;;TRUE;FALSE;Asia L vogt;"pieprz, bazylia, oregano, czosnek granulowany
+do koncentratu nieco wody i zioła";
+46;;;5;Pizza caprichiosa z wrapa;"1x tortilla pełnoziarnista
 2 łyżeczki - koncentrat pomidorowy 30% (40g)
 80g pieczarki
 1x pomidor czerwony
 4 plastry mozzarella light (60g)
-[ ] Szynka włoska",15m,,,FALSE,FALSE,Asia L vogt,,
-47,"Karo, czworokątny, dzwonek",4,2,Makaron z pesto minimal (2 porcje),"125g razowy lub świeży tagiatelle
-5/10 łyżek pesto govege ()",5-15m,Bez laktozy,,TRUE,FALSE,Asia L vogt,,
-48,"Kier, serce",,5,Makaron z pesto (2 porcje),"4x Pomidory koktajlowe (80g)
+[ ] Szynka włoska";15m;;;FALSE;FALSE;Asia L vogt;;
+47;Karo, czworokątny, dzwonek;4;2;Makaron z pesto minimal (2 porcje);"125g razowy lub świeży tagiatelle
+5/10 łyżek pesto govege ()";5-15m;Bez laktozy;;TRUE;FALSE;Asia L vogt;;
+48;Kier, serce;;5;Makaron z pesto (2 porcje);"4x Pomidory koktajlowe (80g)
 5 łyżek pesto
 1 łyżka pestek dyni lub orzechy nerkowca lub migdały
 1 łyżka parmezan
-150g makaron",5-15m,,,FALSE,FALSE,Asia L vogt,"Bazylia, wodę posolić by smakowała jak ulubiona morska, krojony czosnek,
+150g makaron";5-15m;;;FALSE;FALSE;Asia L vogt;"Bazylia, wodę posolić by smakowała jak ulubiona morska, krojony czosnek,
 
 i nieco oliwy też może być
 opcjonalnie nieco cytryny
 
-sól pieprz",
-49,"Kier, serce",,5,Jajecznica z cebulą na maśle,"2x jajko
+sól pieprz";
+49;Kier, serce;;5;Jajecznica z cebulą na maśle;"2x jajko
 1 łyżka masła (10g)
 1x pomidor czerwony
 0,5x cebuli
-1 kromka chleb bez drożdży (biedronka)",10m,,,FALSE,FALSE,Asia L vogt,,
-50,"Kier, serce",,,Owoce z czekoladą,"3x kostka czekolady
+1 kromka chleb bez drożdży (biedronka)";10m;;;FALSE;FALSE;Asia L vogt;;
+50;Kier, serce;;;Owoce z czekoladą;"3x kostka czekolady
 1x jabłko
-1 garść winogron (70g)",2m,,,TRUE,FALSE,Asia L vogt,,
-51,"Kier, serce",,,Skyr z gruszką i orzechami,"1x skyr 150g
+1 garść winogron (70g)";2m;;;TRUE;FALSE;Asia L vogt;;
+51;Kier, serce;;;Skyr z gruszką i orzechami;"1x skyr 150g
 1x gruszka
-10g orzechy",2m,,,TRUE,FALSE,Asia L vogt,,
-52,,,,Serek wiejski z rzodkiewką,"1x serek wiejski 200g
-4x rzodkiewka",2m,,,FALSE,FALSE,Asia L vogt,,
-53,,,,Bułka z jajkiem,"1x bułka 80g
+10g orzechy";2m;;;TRUE;FALSE;Asia L vogt;;
+52;;;;Serek wiejski z rzodkiewką;"1x serek wiejski 200g
+4x rzodkiewka";2m;;;FALSE;FALSE;Asia L vogt;;
+53;;;;Bułka z jajkiem;"1x bułka 80g
 1x jajko
 5g masło
-1 garść szpinak",10-15m,,,FALSE,FALSE,Asia L vogt,,
-54,,,,Makaron po chińsku,"1x mieszanka chińska hortex, 
+1 garść szpinak";10-15m;;;FALSE;FALSE;Asia L vogt;;
+54;;;;Makaron po chińsku;"1x mieszanka chińska hortex, 
 150g makaron ryżowy, 
 1x łyżka olej
 opakowanie tofu wędzone, 
-2x łyżka sos sojowy",15-25m,,,FALSE,FALSE,Asia L vogt,,
-55,,,,Sałatka makaronowa z pesto,"50g Makaron
+2x łyżka sos sojowy";15-25m;;;FALSE;FALSE;Asia L vogt;;
+55;;;;Sałatka makaronowa z pesto;"50g Makaron
 1/3 mozzarella
 15g pesto
 3x pomidor koktajlowy
-2x łyżka oliwki",5-15m,,,FALSE,FALSE,Asia L vogt,,
-56,,,,Ciabatta z mozzarella i pomidorem,"1x ciabatta, 
+2x łyżka oliwki";5-15m;;;FALSE;FALSE;Asia L vogt;;
+56;;;;Ciabatta z mozzarella i pomidorem;"1x ciabatta, 
 50g mozzarella, 
 1 łyżka oliwek, 
-4x plaster pomidor",5m,,,FALSE,FALSE,Asia L vogt,,
-57,,,,Skyr z miodem i malinami,"skyr, maliny, miód",3m,,,FALSE,FALSE,Asia L vogt,,
-58,,,,Kanapka z hummusem i papryką,"kanapka, papryka, hummus",3m,,,FALSE,FALSE,,,
-59,,,,Serek wiejski z kiełkami,"serek wiejski, kiełki",2m,,,FALSE,FALSE,,,
-60,,,,Szakszuka,"jajko, szpinak, pomidor w puszcze, cebula, olej, chleb z ziarnami",15-25m,,,FALSE,FALSE,,,
+4x plaster pomidor";5m;;;FALSE;FALSE;Asia L vogt;;
+57;;;;Skyr z miodem i malinami;skyr, maliny, miód;3m;;;FALSE;FALSE;Asia L vogt;;
+58;;;;Kanapka z hummusem i papryką;kanapka, papryka, hummus;3m;;;FALSE;FALSE;;;
+59;;;;Serek wiejski z kiełkami;serek wiejski, kiełki;2m;;;FALSE;FALSE;;;
+60;;;;Szakszuka;jajko, szpinak, pomidor w puszcze, cebula, olej, chleb z ziarnami;15-25m;;;FALSE;FALSE;;;
+61;;;6;Duża jajecznica;"1 łyżeczka oleju
+3x jajko, szpinak/rukola
+1x kromka chleba żytniego
+1 łyżeczka pesto na chleb
+10g tarkowany parmezan, ser typu feta
+Pomidor pokrojony w ćwiartki";15m;;420;FALSE;TRUE;;;
